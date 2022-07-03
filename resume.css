@@ -241,14 +241,12 @@
     width: 100%;
     align-content: center;
     align-items: flex-start;
-    /* background-color: white; */
     padding: 1em;
 }
 
 .right-side-content h4 {
     padding: 10px;
     border-radius: 10px;
-    /* border: 2px solid white; */
     display: block;
     height: 100%;
     width: 100%;

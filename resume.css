@@ -8,9 +8,9 @@
 }
 
 .top-side {
-    border: 1px solid rgb(255, 255, 255);
-    border-bottom: none;
-    border-radius: 4px;
+    border: 9px solid rgb(0 0 0);
+    /* border-bottom: none; */
+    border-radius: 7px;
     border-style: double;
     display: flex;
     flex-wrap: wrap;

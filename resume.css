@@ -3,11 +3,18 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .left-side,
+    .top-side,
+    .right-side-content {
+        width: 100%;
+    }
+}
+
 #container {
     /* border: 2px solid black; */
-    height: 190rem;
     width: 100vw;
-    /* background-color: #99c7c7; */
 }
 
 .left-side {
@@ -140,7 +147,6 @@
     width: 95%;
     flex-direction: row;
     align-content: center;
-    justify-content: flex-start;
     align-items: center;
     position: absolute;
     margin: 3rem 3rem 0.5rem 3rem;
@@ -153,7 +159,6 @@
 .top-side-name {
     display: flex;
     height: fit-content;
-    width: 40%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;

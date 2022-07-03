@@ -1,47 +1,84 @@
 * {
-    margin: 0px;
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .left-side,
-    .top-side,
-    .right-side-content {
-        width: 100%;
-    }
+.container {
+    border: 2px solid black;
+    background-color: rgb(51, 103, 122)
 }
 
-#container {
-    /* border: 2px solid black; */
-    width: 100vw;
+.top-side {
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-radius: 4px;
+    border-style: double;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    justify-content: space-evenly;
 }
 
-.left-side {
-    margin: 1rem;
+.top-side-name {
+    border-radius: 4px;
+    border: 2px solid rgb(255, 255, 255);
+    color: #fffefe;
+    text-shadow: 0 0 5px black;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.top-side-details {
+    color: #fffefe;
+    line-height: 20px;
+    text-shadow: 0 0 5px black;
+}
+
+.top-side-details a {
+    text-decoration: none;
+    color: #fffefe;
+}
+
+.top-side-details a:hover {
+    text-decoration: double;
+    animation-duration: 0.25s;
+    border-left: 8px solid rgba(0, 0, 0, 0);
+    color: rgb(99, 223, 223);
+    text-shadow: 0 0 5px #000000;
+}
+
+.col-4 {
+    background-color: #e5e5e5;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
     border: 12px solid white;
     border-radius: 10px;
     border-style: double;
     display: inline-flex;
-    height: 190rem;
-    width: 27%;
     flex-direction: column;
     align-content: flex-start;
     justify-content: flex-start;
-    align-items: center;
-    position: absolute;
+    align-items: stretch;
+    /* position: absolute; */
     background-color: black;
 }
 
 .left-side-inside {
+    float: left;
+    width: 20%;
+    text-align: center;
     display: flex;
-    /* border: 2px solid rgb(0, 0, 0); */
-    /* background-color: aliceblue; */
     position: relative;
-    margin: 19rem 0.25rem 1rem 0.5rem;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    /* align-content: center; */
     justify-content: space-around;
     align-items: flex-start;
     height: fit-content;
@@ -140,71 +177,18 @@
     border-radius: 3px;
 }
 
-.top-side {
-    border: 12px solid #fbfdff;
-    display: inline-flex;
-    height: fit-content;
-    width: 95%;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    position: absolute;
-    margin: 3rem 3rem 0.5rem 3rem;
-    background-color: rgb(76 127 127);
-    border-radius: 4px;
-    border-style: double;
-    /* padding: 3em 0 2em 0em;*/
-}
-
-.top-side-name {
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: flex-start;
-    color: #ffffff;
-    margin-left: 1rem;
-}
-
-.top-side-details {
-    /* border: 2px solid white;*/
-    background-color: rgb(76 127 127);
-    display: flex;
-    height: fit-content;
-    width: 80%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5rem 1rem 0 1rem;
-    color: #fffefe;
-    text-shadow: 0 0 5px black;
-}
-
-.top-side-details a {
-    text-decoration: none;
-    color: #fffefe;
-    text-shadow: 0 0 5px black;
-}
-
-.top-side-details a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: double;
-    text-shadow: 0 0 5px rgb(255, 255, 255);
-}
-
-.right-side .right-side-content {
-    /* border: 2px solid #4c7f7f; */
-    display: inline-flex;
-    position: absolute;
-    margin: 20rem 27rem;
-    flex-direction: column;
-    height: fit-content;
-    height: fit-content;
+.col-8 {
+    float: left;
     width: 70%;
+    padding: 0 20px;
+}
+
+.right-side-content {
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+    height: fit-content;
+    width: 100%;
     align-content: center;
     align-items: flex-start;
     /* background-color: white; */
@@ -236,4 +220,13 @@
 
 .education .descrip {
     display: block;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu,
+    .col-8,
+    .col-4 {
+        width: 100%;
+    }
 }

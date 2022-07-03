@@ -21,6 +21,7 @@
 }
 
 .top-side-name {
+    font-family: monospace;
     border-radius: 4px;
     color: #fffefe;
     text-shadow: 0 0 5px black;
@@ -30,7 +31,8 @@
     text-align: center;
 }
 
-.top-side-name .animation {
+
+/* .top-side-name .animation {
     font-family: fantasy;
 }
 
@@ -80,7 +82,7 @@
 
 .words span:nth-child(7) {
     animation-delay: 3s;
-}
+} */
 
 .top-side-details {
     color: #fffefe;

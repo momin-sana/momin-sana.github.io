@@ -187,14 +187,28 @@
 }
 
 .js {
-    width: 85%;
+    width: 80%;
     background-color: rgb(76 127 127);
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .bootStrap {
-    width: 70%;
+    width: 87%;
+    background-color: rgb(76 127 127);
+    height: 0.5rem;
+    border-radius: 3px;
+}
+
+.firebase {
+    width: 75%;
+    background-color: rgb(76 127 127);
+    height: 0.5rem;
+    border-radius: 3px;
+}
+
+.github {
+    width: 85%;
     background-color: rgb(76 127 127);
     height: 0.5rem;
     border-radius: 3px;

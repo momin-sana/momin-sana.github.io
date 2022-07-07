@@ -278,5 +278,6 @@
     .col-8,
     .col-4 {
         width: 100%;
+        font-size: medium;
     }
 }

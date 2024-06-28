@@ -4,7 +4,7 @@
 
 .container {
     border: 2px solid black;
-    background-color: rgb(0 73 73);
+    background-color:#57005a;
 }
 
 .top-side {
@@ -63,7 +63,7 @@
     text-decoration: double;
     animation-duration: 0.25s;
     border-left: 8px solid rgba(0, 0, 0, 0);
-    color: #3a7373;
+    color: #fa66ff;
     text-shadow: 0 0 5px #000000;
 }
 
@@ -74,7 +74,7 @@
     padding: 15px;
     margin-top: 7px;
     text-align: center;
-    border: 12px solid #004949;
+    border: 12px solid #57005a;
     border-radius: 10px;
     border-style: double;
     display: inline-flex;
@@ -103,7 +103,7 @@
 }
 
 .left-side-inside h4 {
-    color: #99c7c7;
+    color: #f086f4;
     font-family: monospace;
     font-size: 1.5em;
 }
@@ -125,84 +125,84 @@
 
 .reactJS {
     width: 88%;
-    background-color: rgb(76 127 127);
+    background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .native {
     width: 5%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .html {
     width: 98%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .css {
     width: 98%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .js {
     width: 80%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .bootStrap {
     width: 87%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .firebase {
     width: 75%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .github {
     width: 85%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .powerPoint {
     width: 98%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .word {
     width: 98%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .excel {
     width: 70%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
 
 .video {
     width: 95%;
-    background-color: rgb(76 127 127);
+     background-color: #57005a;
     height: 0.5rem;
     border-radius: 3px;
 }
@@ -233,7 +233,7 @@
     color: #ffffff;
     font-family: monospace;
     font-size: 1.5em;
-    background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(59 115 115) 50%, rgb(241 237 237 / 0%) 100%);
+    background: linear-gradient(90deg, rgb(0 0 0) 0%, #57005a 90%, rgb(241 237 237 / 0%) 100%);
 }
 
 .education {
